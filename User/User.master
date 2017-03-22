@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="User.master.cs" Inherits="Public_Public" %>
+
+
+<%@ Register src="UserStatus.ascx" tagname="UserStatus" tagprefix="uc1" %>
+<%@ Register src="Menu.ascx" tagname="Menu" tagprefix="uc2" %>
+
+<%@ Register src="../Public/Links.ascx" tagname="Links" tagprefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Graphics/User/Style4.css" rel="stylesheet" type="text/css" />
+</head>
+<center>
+<body>
+
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0" cellspacing="4" class="table">
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <uc1:UserStatus ID="UserStatus2" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td class="rightzone">
+                    <uc2:Menu ID="Menu1" runat="server" />
+                </td>
+                <td class="leftzone" rowspan="2" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td width="150px" class="rightzone">
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default.aspx">سایت</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><center>
+                    طراحی و اجرا:<br />
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CR.aspx">محمدرضا طیبی</asp:HyperLink></center>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</center>
+</html>

@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Public.master.cs" Inherits="Public_Public" %>
+
+<%@ Register src="../Login/Login.ascx" tagname="Login" tagprefix="uc1" %>
+
+<%@ Register src="Links.ascx" tagname="Links" tagprefix="uc2" %>
+
+<%@ Register src="Facility.ascx" tagname="Facility" tagprefix="uc3" %>
+
+<%@ Register src="About.ascx" tagname="About" tagprefix="uc4" %>
+
+<%@ Register src="Comment.ascx" tagname="Comment" tagprefix="uc5" %>
+
+<%@ Register src="Adverties.ascx" tagname="Adverties" tagprefix="uc6" %>
+
+<%@ Register src="Users.ascx" tagname="Users" tagprefix="uc7" %>
+
+<%@ Register src="Archive.ascx" tagname="Archive" tagprefix="uc8" %>
+
+<%@ Register src="Groups.ascx" tagname="Groups" tagprefix="uc9" %>
+
+<%@ Register src="ExternalLinks.ascx" tagname="ExternalLinks" tagprefix="uc10" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Graphics/Style1.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style4
+        {
+            vertical-align: top;
+            background-image: url('../Graphics/Images/banner.png');
+            height: 150px;
+            text-align: center;
+        }
+        .style6
+        {
+            font-family: Tahoma;
+            font-weight: normal;
+            font-size: 50pt;
+        }
+        .style7
+        {
+            color: Green;
+            text-decoration: none;
+            font-family: Tahoma;
+            font-size: 10pt;
+        }
+        </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="4" cellspacing="0" class="MainTable">
+            <tr>
+                <td colspan="3" class="banner">
+                   
+                    
+                    </td>
+            </tr>
+            <tr>
+                <td class="RightZone">
+                
+                    <uc2:Links ID="Links1" runat="server" />
+                    <br />
+                    <uc10:ExternalLinks ID="ExternalLinks1" runat="server" />
+                    <br />
+                    <uc7:Users ID="Users1" runat="server" />
+                    <br />
+                    <uc9:Groups ID="Groups1" runat="server" />
+                    <br />
+                    <uc6:Adverties ID="Adverties1" runat="server" />
+                    <br />
+                    <uc8:Archive ID="Archive1" runat="server" />
+                </td>
+                <td class="CenterZone">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="LeftZone">
+                    <uc4:About ID="About1" runat="server" />
+                    <br /><br />
+                    <uc5:Comment ID="Comment1" runat="server" />
+                    <br /><br />
+                    <uc3:Facility ID="Facility2" runat="server" />
+                    <br /><br />
+                </td>
+            </tr>
+            <tr>
+            
+                <td colspan="3">
+                <center>تمامی حقوق محفوظ است
+</center>
+</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿body
+{
+    direction: rtl;
+    background-image: url('Images/error.png');
+    background-repeat: repeat;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.link
+{
+    color:Green;
+    text-decoration:none;
+    font-size: large;
+}

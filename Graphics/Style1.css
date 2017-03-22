@@ -1,0 +1,67 @@
+﻿  
+body
+{
+    direction: rtl;
+    font-family: Batang Tahoma;
+    font-size: 18px;
+    text-decoration: none;
+    background-image: url('Images/publicBackground.jpg');
+	background-repeat:no-repeat;
+	background-position:top;
+	background-attachment:fixed;
+    opacity:0.9;
+}
+.banner
+{
+	background-repeat:no-repeat;
+	background-position:top;
+    vertical-align:top;
+	text-align:center;
+    background-image: url('Images/banner.png');
+    height:170px;
+}
+
+.MainTable
+{
+    background-color:White;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:600px;
+    box-shadow: 10px 10px 5px #888888;
+    border:2px solid;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+.RightZone
+{
+    margin-left:auto;
+    margin-right:auto;
+    min-width:150px;
+    vertical-align:top;
+}
+.LeftZone
+{
+    margin-left:auto;
+    margin-right:auto;
+    min-width:150px;
+    vertical-align:top;
+}
+.CenterZone
+{
+    min-width:500px;
+    width:500px;
+    vertical-align:top;
+    background-color:Silver;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    width:145;
+    height:auto;
+    padding:5px;
+}
+
+
+
+

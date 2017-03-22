@@ -1,0 +1,75 @@
+﻿body 
+{
+}
+.title
+{
+    font-family:Tahoma;
+    font-size:large;
+    text-decoration:none;
+    color:Green;
+}
+.Abstract
+{
+    font-family:Tahoma;
+    font-size:small;
+}
+/*______________________________________ show news*/
+.text
+{
+    font-family:Tahoma;
+    font-size:large;
+    color::Black
+}
+.Title
+{
+    font-family:Tahoma;
+    font-size:large;
+    color:Green;
+}
+.abstract
+{
+    font-family:Tahoma;
+    font-size:small;
+    color:Black;
+}
+/*                                    */
+.MainTable
+{
+    background-color:White;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:600px;
+    box-shadow: 10px 10px 5px #888888;
+    border:2px solid;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+.date
+{
+    font-family:Tahoma;
+    font-size:medium;
+    text-decoration:none;
+    color:Green;
+}
+.user
+{
+    font-family:Tahoma;
+    font-size:medium;
+    text-decoration:none;
+    color:Green;
+}
+.group
+{
+        font-family:Tahoma;
+    font-size:medium;
+    text-decoration:none;
+    color:Green;
+}
+.pagelable
+{
+    background-color:Lime;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}

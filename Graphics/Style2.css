@@ -1,0 +1,49 @@
+﻿
+.table
+{
+    padding: 10;
+    vertical-align:top;
+    background-color:White;
+    width:157px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    
+}
+
+.header
+{
+    font-family:Tahoma;
+    font-size:large;
+    color:Black;
+    text-align: center;
+}
+.linkheader
+{
+    font-family:Tahoma;
+    font-size:large;
+    text-decoration:none;
+    color:Black;
+}
+.linkheader:hover
+{
+    font-family:Tahoma;
+    font-size:large;
+    text-decoration:none;
+    background-color:Black;
+    color:Lime;
+}
+.links
+{
+    color:Green;
+    text-decoration:none;
+    font-family:Tahoma;
+    font-size:small;
+}
+.links:hover
+{
+    background-color:Black;
+    color:Lime;
+}

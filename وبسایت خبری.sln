@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "وبسایت خبری", ".", "{E0290F1C-0736-4342-89A8-30381F1C112A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/وبسایت خبری"
+		Debug.AspNetCompiler.PhysicalPath = "..\وبسایت خبری\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\وبسایت خبری\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/وبسایت خبری"
+		Release.AspNetCompiler.PhysicalPath = "..\وبسایت خبری\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\وبسایت خبری\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2074"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0290F1C-0736-4342-89A8-30381F1C112A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0290F1C-0736-4342-89A8-30381F1C112A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
